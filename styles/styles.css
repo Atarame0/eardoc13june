@@ -961,8 +961,7 @@ iframe {
 
 
 .button-link {
-    margin: 0; /* Remove default margin */
-    margin: -24px;
+    margin: 32%;
 }
 
 .web-icon {
