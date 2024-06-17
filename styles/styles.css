@@ -1709,6 +1709,39 @@ margin-top: 0%;
 
 /* spline */
 /* מבנה האוזן */
+.viewer-container-introdocs {
+  
+    width: 80%;
+    height: 80%;
+    position: relative;
+   
+padding-bottom: 8%;
+
+
+}
+
+
+#mobile-viewer {
+    display: none;
+}
+
+
+/* Show the web viewer on devices with min width 600px and hide the mobile viewer */
+@media only screen and  (max-width: 600px) {
+    #web-viewer {
+        display:none;
+    }
+    
+
+
+    .viewer-container-earanatomy-mobile{
+        display: flex;
+        background-image: url(../images/reserch-bg-2.png);
+        background-position-y: 16%;
+        background-position-x: 47%;
+        background-repeat: no-repeat;
+    }
+}
 
 
 .viewer-container-earanatomy {
