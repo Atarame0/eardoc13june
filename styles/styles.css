@@ -1742,8 +1742,6 @@ display: none;
 }
 
 
-    
-/* Show the web viewer on devices with min width 600px and hide the mobile viewer */
 @media only screen and  (max-width: 600px) {
     #web-viewer {
         display:none;
@@ -1765,10 +1763,7 @@ display: none;
 
 
 .viewer-container-earanatomy {
-
-    
     margin-top: -18%;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1849,10 +1844,33 @@ display: none;
     text-align: center;
 }
 
-#canvas3d {
-    width: 80% !important; /* Adjust width to make the canvas larger */
-    height: 80% !important; /* Adjust height to make the canvas larger */
+
+
+.viewer-container-introdoc-mobile{
+    display: none;
 }
+
+@media only screen and  (max-width: 600px) {
+
+    .viewer-container-introdoc-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 0%;
+        padding-top: 0%;
+
+    }
+
+       #web-viewer {
+        display:none;
+    }
+    
+}
+
+
+
 /* אינטרקציה מרכזית */
 
 .viewer-container-main {
