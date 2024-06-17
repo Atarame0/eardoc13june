@@ -1728,6 +1728,8 @@ padding-bottom: 8%;
 .viewer-container-earanatomy-mobile{
 display: none;
 }
+
+
     
 /* Show the web viewer on devices with min width 600px and hide the mobile viewer */
 @media only screen and  (max-width: 600px) {
@@ -1752,18 +1754,16 @@ display: none;
 
 .viewer-container-earanatomy {
     display: flex;
-    flex-direction: column; /* Arrange items in a column */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 120%;
-    
-   padding-bottom: 14%;
-   
-    padding-top: 10%;
+    width: 100%;
+    padding-bottom: 0%;
+    padding-top: 0%;
     background-image: url(../images/reserch-bg-2.png);
     background-position-y: 26%;
-    background-size: 116%;
-    background-position-x: 47%;
+    background-size: 124%;
+    background-position-x: 82%;
     background-repeat: no-repeat;
 
 
