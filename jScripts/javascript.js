@@ -121,54 +121,78 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // המלצות מהעולם  
 
-  function showPopup(country) {
-    const popup = document.getElementById('popup');
-    const videoIframe = document.getElementById('video-iframe');
-
-    let videoUrl = '';
-
-    switch (country) {
-        case 'Israel':
-            videoUrl = 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/Eardoc.store/videos/930844451966430/&show_text=0&width=560';
-            break;
-        case 'UK':
-            videoUrl = 'https://www.youtube.com/embed/Kx0Whg-KOxg';
-            break;
-        case 'US':
-            videoUrl = 'https://www.youtube.com/embed/_7OPmT3yJWY';
-            break;
-        case 'ND':
-            videoUrl = 'https://www.youtube.com/embed/oyki6anJwR0';
-            break;
-        case 'Hawaii':
-            videoUrl = 'https://www.youtube.com/embed/1ZPIhMGBsaM';
-            break;
-        case 'Asia':
-            videoUrl = 'https://www.youtube.com/embed/KpFTmjh-4qg';
-            break;
-    }
-
-    videoIframe.src = videoUrl;
-
-    popup.style.display = 'flex';
-}
-
-function closePopup() {
-    const popup = document.getElementById('popup');
-    const videoIframe = document.getElementById('video-iframe');
-    popup.style.display = 'none';
-    videoIframe.src = '';  // Stop the video when the popup is closed
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-    const popup = document.getElementById('popup');
-    popup.addEventListener('click', (e) => {
-        if (e.target === popup) {
-            closePopup();
+   function showPopup(country) {
+        const popup = document.getElementById('popup');
+        const videoIframe = document.getElementById('video-iframe');
+        const popupTitle = document.getElementById('popup-title');
+        const popupFlag = document.getElementById('popup-flag');
+    
+        let videoUrl = '';
+        let title = '';
+        let flagSrc = '';
+    
+        switch (country) {
+            case 'Israel':
+                videoUrl = 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/Eardoc.store/videos/930844451966430/&show_text=0&width=560';
+                title = 'ישראל';
+                flagSrc = 'images/israel.png';
+                break;
+            case 'UK':
+                videoUrl = 'https://www.youtube.com/embed/Kx0Whg-KOxg';
+                title = 'בריטניה';
+                flagSrc = 'images/Britain.png';
+                break;
+            case 'US':
+                videoUrl = 'https://www.youtube.com/embed/_7OPmT3yJWY';
+                title = 'אמריקה';
+                flagSrc = 'images/amerika.png';
+                break;
+            case 'ND':
+                videoUrl = 'https://www.youtube.com/embed/oyki6anJwR0';
+                title = 'צפון דיקוטה';
+                flagSrc = 'images/dikota.png';
+                break;
+            case 'Hawaii':
+                videoUrl = 'https://www.youtube.com/embed/1ZPIhMGBsaM';
+                title = 'הוואי';
+                flagSrc = 'images/hawaii.png';
+                break;
+            case 'Asia':
+                videoUrl = 'https://www.youtube.com/embed/KpFTmjh-4qg';
+                title = 'תאילנד';
+                flagSrc = 'images/Thailand.png';
+                break;
         }
+    
+        videoIframe.src = videoUrl;
+        popupTitle.textContent = title;
+        popupFlag.src = flagSrc;
+        popupFlag.alt = `${title} flag`;
+    
+        popup.style.display = 'flex';
+    }
+    
+    function closePopup() {
+        const popup = document.getElementById('popup');
+        const videoIframe = document.getElementById('video-iframe');
+        const popupTitle = document.getElementById('popup-title');
+        const popupFlag = document.getElementById('popup-flag');
+    
+        popup.style.display = 'none';
+        videoIframe.src = '';  // Stop the video when the popup is closed
+        popupTitle.textContent = '';
+        popupFlag.src = '';
+        popupFlag.alt = '';
+    }
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        const popup = document.getElementById('popup');
+        popup.addEventListener('click', (e) => {
+            if (e.target === popup) {
+                closePopup();
+            }
+        });
     });
-});
-
 // window.addEventListener('resize', adjustMapSize);
 
 // function adjustMapSize() {
