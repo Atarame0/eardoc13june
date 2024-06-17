@@ -1293,7 +1293,11 @@ margin-top: 0%;
    
 }
 
+@media (max-width: 600px) {
 
+    .flex-container-doc h2,p{
+        text-align: center;
+    }
 
 
 
