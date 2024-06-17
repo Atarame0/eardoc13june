@@ -1736,10 +1736,13 @@ display: none;
     
 #mobile-viewer-earanatomy{
     display: none;
-    background-color: white;
+    
+    
 }
 
-
+.viewer-container-earanatomy {
+     background-image: none;
+}
     .viewer-container-earanatomy-mobile{
         display: flex;
         background-image: url(../images/reserch-bg-2.png);
@@ -1751,6 +1754,7 @@ display: none;
 
 
 .viewer-container-earanatomy {
+    
     margin-top: -18%;
     display: flex;
     flex-direction: column;
