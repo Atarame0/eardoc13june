@@ -1718,16 +1718,7 @@ text-align: center;
 
 /* spline */
 /* מבנה האוזן */
-.viewer-container-introdocs {
-  
-    width: 80%;
-    height: 80%;
-    position: relative;
-   
-padding-bottom: 8%;
 
-
-}
 
 
 #mobile-viewer {
@@ -1889,7 +1880,6 @@ display: none;
     width: 80%;
     height: 80%;
     position: relative;
-    left: -5%;
 padding-bottom: 8%;
 
 
