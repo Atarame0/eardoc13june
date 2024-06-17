@@ -800,7 +800,7 @@ height: 63%;
 
   
 
-/* במלצות מהעולם */
+/* המלצות מהעולם */
 .hotspot {
     transition: transform 0.3s ease; /* Smooth transition for the scale effect */
 }
@@ -917,6 +917,15 @@ iframe {
 }
 
 
+.flag {
+    width: 50px;
+    height: auto;
+    margin: 10px 0;
+}
+
+#popup-title {
+    margin: 10px 0;
+}
 
 
 /* אישור משרד הבריאות האמריקני */
