@@ -1768,7 +1768,7 @@ display: none;
     width: 100%;
     padding-bottom: 0%;
     padding-top: 0%;
- 
+     background-image: url(../images/reserch-bg-2.png);
     background-position-y: 26%;
     background-size: 124%;
         background-position-x: 68%;
@@ -1804,7 +1804,7 @@ display: none;
         height: 100%;
         padding-bottom: 14%;
         padding-top: 10%;
-        background-image: url(../images/reserch-bg-2.png);
+
         background-position-y: 61%;
         background-size: 169%;
         background-position-x: 47%;
