@@ -1328,7 +1328,7 @@ text-align: center;
     display: inline-block;
     width: calc(33.33% - 10px); /* Adjust width to fit three items in a row */
     margin-right: 10px; /* Adjust margin between items */
-    border-radius: 42px;
+    border-radius: 18px;
 }
 
 
