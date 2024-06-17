@@ -1861,19 +1861,6 @@ display: none;
 
 /* אינטרקציה מרכזית */
 
-.viewer-container-main {
-  
-        width: 80%;
-        height: 80%;
-        position: relative;
-        left: -5%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* background-color: #000000; */
-    
-
-}
 
 .viewer-container-introdocs {
   
