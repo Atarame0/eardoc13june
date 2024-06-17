@@ -1294,6 +1294,9 @@ margin-top: 0%;
    
 }
 
+.flex-container-doc h2, p{
+text-align: center;
+}
 
 
 @media (max-width: 600px) {
