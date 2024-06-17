@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
             case 'Israel':
                 videoUrl = 'https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/Eardoc.store/videos/930844451966430/&show_text=0&width=560';
                 title = 'ישראל';
-                flagSrc = 'url(../images/israel.png)';
+                flagSrc = 'images/israel.png';
                 break;
             case 'UK':
                 videoUrl = 'https://www.youtube.com/embed/Kx0Whg-KOxg';
