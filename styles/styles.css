@@ -338,12 +338,13 @@ p{
     gap: 48px;
     padding: 98px;
     list-style: none;
-    overflow-y: hidden; /* Prevent vertical scrolling */
-    background-image: url(../images/Catbg.png); /* Ensure the path is correct */
-    background-size: cover; /* Make sure the background image covers the entire area */
-    background-position: center center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent background image from repeating */
-    position: relative; /* Add position relative to allow absolute positioning of buttons */
+    overflow-y: hidden; 
+    background-image: url(../images/Catbg.png); 
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+padding-top: 6%;
 }
 
   .list::-webkit-scrollbar {
