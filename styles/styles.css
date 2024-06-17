@@ -1753,6 +1753,10 @@ display: none;
 
 
 .viewer-container-earanatomy {
+
+    
+    margin-top: -18%;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1763,7 +1767,7 @@ display: none;
     background-image: url(../images/reserch-bg-2.png);
     background-position-y: 26%;
     background-size: 124%;
-    background-position-x: 82%;
+        background-position-x: 68%;
     background-repeat: no-repeat;
 
 
