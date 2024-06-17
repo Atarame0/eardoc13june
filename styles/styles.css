@@ -1413,6 +1413,11 @@ text-align: center;
         height: 5%;
     }
 
+
+
+    .flex-container-opening-doc h1,p{
+        text-align: center;
+    }
     
 
 
@@ -1484,6 +1489,9 @@ text-align: center;
 
   
 }
+
+
+
 
 
 
