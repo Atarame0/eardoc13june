@@ -1725,7 +1725,10 @@ padding-bottom: 8%;
     display: none;
 }
 
-
+viewer-container-earanatomy-mobile{
+display: none;
+}
+    
 /* Show the web viewer on devices with min width 600px and hide the mobile viewer */
 @media only screen and  (max-width: 600px) {
     #web-viewer {
