@@ -1268,7 +1268,7 @@ iframe {
 
 .flex-container-opening-doc li {
    width: 26rem;
-    height: 26rem;
+    height: 14rem;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
