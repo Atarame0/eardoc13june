@@ -1732,6 +1732,9 @@ padding-bottom: 8%;
         display:none;
     }
     
+#mobile-viewer-earanatomy{
+    display: none;
+}
 
 
     .viewer-container-earanatomy-mobile{
