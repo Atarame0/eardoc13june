@@ -1754,6 +1754,7 @@ display: none;
 
 .viewer-container-earanatomy {
      background-image: none;
+    display:none;
 }
     .viewer-container-earanatomy-mobile{
         display: flex;
