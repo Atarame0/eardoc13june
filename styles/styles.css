@@ -1296,6 +1296,11 @@ margin-top: 0%;
    
 }
 
+
+.main-text{
+    text-align: right;
+}
+
 @media (max-width: 600px) {
 
        .flex-container-doc strong{
