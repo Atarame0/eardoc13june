@@ -1962,22 +1962,12 @@ display: none;
 
 
 .button-link button {
-    background: linear-gradient(180deg, #ADE7FF, #64D8FF, #35C0E8, #2980A7);
-    border-radius: 15%;
-    border: none;
-    color: white;
-
+ background: linear-gradient(180deg, #c2edff, #64D8FF, #35C0E8, #2980A7);
+    padding: 9px 28px;
+    left: 4%;
+    border-radius: 13px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
-    padding: 6px 25px;
-    left: 4%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1rem;
-    border-radius: 12px;
-
-
     margin-right: -4%;
     margin-top: 6%;
 }
