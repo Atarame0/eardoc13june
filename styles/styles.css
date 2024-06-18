@@ -1791,6 +1791,11 @@ display: none;
 }
 
 
+
+.viewer-container-main-mobile{
+    display: none;
+}
+
 .viewer-container-earanatomy {
         background-color: #effbfe;
     display: flex;
