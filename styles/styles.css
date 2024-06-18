@@ -237,7 +237,7 @@ p{
     font-family: 'Assistant-Light', sans-serif;
     line-height: 1.6;
     font-size: 1.25rem;
-    text-align: center;
+  
     
     
 }
@@ -1423,9 +1423,7 @@ margin-top: 0%;
         text-align: center;
     }
     
-.flex-container-opening-doc p{
-     text-align: right !important;
-}
+
 
     .chosenCat-image{
 
