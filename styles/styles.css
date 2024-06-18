@@ -1027,6 +1027,7 @@ iframe {
 
     .nav__title {
         color: #000000;
+        
     }
     .footer ul{
         flex-wrap: nowrap;
@@ -1079,6 +1080,7 @@ iframe {
     font-size: 1rem;
     text-decoration: none;
     color: black;
+      text-align: right;
   }
   
   .footer address {
