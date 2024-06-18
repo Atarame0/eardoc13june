@@ -1424,7 +1424,7 @@ margin-top: 0%;
     }
     
 .flex-container-opening-doc p{
-     text-align: right;
+     text-align: right !important;
 }
 
     .chosenCat-image{
