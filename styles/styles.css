@@ -1457,6 +1457,7 @@ margin-top: 0%;
     }
 
     .doc-med {
+        background-color: #effbfe;
         padding: 3%;
         width: 100%;
         display: flex;
@@ -1468,8 +1469,9 @@ margin-top: 0%;
 
 
     .accordion {
+        
         font-family: 'Assistant-Light';
-        background-color: white;
+        background-color: #effbfe;
         cursor: pointer;
         padding: 18px;
         width: 100%;
