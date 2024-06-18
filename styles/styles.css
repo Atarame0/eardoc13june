@@ -1968,7 +1968,9 @@ display: none;
 }
 
 
-
+.flex-container-opening-doc-research p{
+    text-align: right;
+}
 
 
 .button-link button {
