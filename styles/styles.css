@@ -1763,6 +1763,13 @@ display: none;
         background-position-x: 47%;
         background-repeat: no-repeat;
     }
+
+
+    .viewer-container-main{
+        display: none;
+    }
+
+    
 }
 
 
