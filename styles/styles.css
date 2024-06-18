@@ -1788,6 +1788,9 @@ display: none;
         display: none;
     }
 
+    .viewer-container-main-mobile{
+    display: block;
+}
     
 }
 
