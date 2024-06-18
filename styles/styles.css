@@ -1416,11 +1416,13 @@ margin-top: 0%;
 
 
 
-    .flex-container-opening-doc h1,p{
+    .flex-container-opening-doc h1{
         text-align: center;
     }
     
-
+.flex-container-opening-doc p{
+     text-align: right;
+}
 
     .chosenCat-image{
 
