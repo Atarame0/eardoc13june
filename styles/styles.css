@@ -990,9 +990,10 @@ iframe {
     }
 
     .web-icon {
-        display: block;
-        width: 15%;
-        margin-bottom: 19%;
+    display: block;
+    width: 15%;
+    margin-bottom: 26%;
+    position: absolute;
     }
     .button-link button {
         padding: 8px 16px;
