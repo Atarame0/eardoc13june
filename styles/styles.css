@@ -975,6 +975,13 @@ iframe {
 }
 
 @media (max-width: 600px){
+
+    .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17vh; 
+}
     .fda-icon img {
         display: inline-block;
         vertical-align: middle;
@@ -983,8 +990,8 @@ iframe {
 
     .web-icon {
         display: block;
-        width: 18%;
-        margin-bottom: 48%;
+        width: 15%;
+        margin-bottom: 19%;
     }
     .button-link button {
         padding: 8px 16px;
