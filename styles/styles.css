@@ -2163,13 +2163,12 @@ color: #751DD5;
 
 
 .flex-container-opening-kids li {
-    width: 37rem;
-    height: 26rem;
+    width: 26rem;
+    height: 14rem;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem; /* Ensure spacing between rows */
-
+    margin-bottom: 1rem;
     
 }
 
