@@ -2176,6 +2176,40 @@ color: #751DD5;
 
 
 
+.kids-opening-section{
+    padding-top: 5%;
+    margin: 3%;
+    
+}
+    
+    
+    .kids-opening-section ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: -6px;
+        /* margin: -65px; */
+        list-style: none;
+        width: 100%;
+        gap: 2%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+
+
+
+.kids-forparents-section-icon{
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
 
 
 .kids-opening-section h2, .kids-forparents-section h2{
