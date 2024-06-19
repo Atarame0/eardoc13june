@@ -2227,8 +2227,8 @@ color: #751DD5;
 }
 
 .kids-opening-section li , .kids-forparents-section li{
-    flex: 1 1 30%; /* Adjust the percentage as needed */
-    margin: 10px;
+    flex: 1 1 30%;
+    margin: -7px;
 }
 
 .kids-opening-section h2 , .kids-forparents-section h2{
