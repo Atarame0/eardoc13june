@@ -412,7 +412,7 @@ padding-top: 6%;
 @media only screen and (max-width: 600px) {
     .item {
         height: 38vh;
-        width: 44vh;
+        width: 15vh;
       
     }
 
@@ -554,8 +554,8 @@ padding-top: 6%;
     }
 
     .Icon-image-Doc {
-        transform: translate(50%, 0) scale(0.8);
-        margin-top: 5%;
+    transform: translate(38%, 0) scale(1);
+    margin-top: 5%;
     }
 
     .IconTextKid {
@@ -565,7 +565,7 @@ padding-top: 6%;
     }
 
     .Icon-image-Kid {
-    transform: translate(75%, 0) scale(0.9);
+transform: translate(63%, 0) scale(1);
     margin-top: -5%;
     }
 
@@ -576,7 +576,7 @@ padding-top: 6%;
     }
 
     .Icon-image-Fly {
-    transform: translate(108%, 0) scale(0.7);
+ transform: translate(96%, 0) scale(0.8);
     margin-top: 15%;
     }
 
@@ -588,7 +588,7 @@ padding-top: 6%;
     }
 
     .Icon-image-Sw {
-    transform: translate(148%, 0) scale(0.7);
+   transform: translate(125%, 0) scale(0.8);
     margin-top: 10%;
     }
 
