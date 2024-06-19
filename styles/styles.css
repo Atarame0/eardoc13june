@@ -576,9 +576,8 @@ padding-top: 6%;
     }
 
     .Icon-image-Fly {
-        transform: translate(50%, 0) scale(0.5);
-
-        margin-top: 5%; 
+    transform: translate(108%, 0) scale(0.7);
+    margin-top: 15%;
     }
 
 
