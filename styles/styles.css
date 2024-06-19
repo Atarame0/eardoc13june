@@ -2189,8 +2189,8 @@ color: #751DD5;
         padding: -6px;
         /* margin: -65px; */
         list-style: none;
-        width: 100%;
-        gap: 2%;
+        width: 89%;
+        gap: 0%;
         flex-direction: row;
         flex-wrap: nowrap;
     }
