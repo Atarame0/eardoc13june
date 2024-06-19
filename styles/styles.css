@@ -729,8 +729,8 @@ height: 63%;
 
     .flip-card-container .flip-card {
         background-color: transparent;
-        width: 189px;
-        height: 217px;
+        width: 173px;
+        height: 214px;
         perspective: 100;
         border-radius: 14px;
         box-shadow: 0 1px 3px rgba(131, 151, 160, 0.5);
