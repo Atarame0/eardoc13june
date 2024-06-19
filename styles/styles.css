@@ -2221,11 +2221,9 @@ color: #751DD5;
     display: flex;
     flex-wrap: wrap;
     padding: -6px;
-    /* margin: -65px; */
     list-style: none;
-    
     gap: 0%;
-    width: 53%;
+    width: 94%;
 }
 
 .kids-opening-section li , .kids-forparents-section li{
