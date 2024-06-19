@@ -565,9 +565,8 @@ padding-top: 6%;
     }
 
     .Icon-image-Kid {
-        transform: translate(50%, 0) scale(0.4);
-
-        margin-top: 5%; 
+    transform: translate(87%, 0) scale(0.9);
+    margin-top: -5%;
     }
 
     .IconTextFly {
