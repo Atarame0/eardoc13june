@@ -2144,16 +2144,15 @@ color: #751DD5;
 
 
 .flex-container-opening-kids {
-
+    padding-top: 6%;
     padding-bottom: 0%;
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
-    gap: 1rem; /* Adjust gap as needed */
+    gap: 1rem;
     flex-direction: row;
     padding-left: 0;
     background-color: #F6EBFF;
-    
     background-position-y: 0%;
     background-size: 61%;
     background-position-x: -51%;
