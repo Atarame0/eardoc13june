@@ -896,12 +896,13 @@ iframe {
         height: 20px;
     }
 
-    .israel { top: 44%; left: 55%; }
-    .uk { top: 30%; left: 46%; }
-    .us { top: 40%; left: 25%; }
-    .nd { top: 35%; left: 25%; }
-    .hawaii { top: 42%; left: 4%;}
-    .asia { top: 37%; left: 70%; }
+     .israel { top: 38%; left: 55%; }
+    .uk { top: 24%; left: 44%; }
+    .us { top: 40%; left: 17%; }
+    .nd { top: 30%; left: 17%; }
+    .hawaii { top: 47%; left: 4%;}
+    .asia { top: 46%; left: 55%; }
+
 
     .popup-content {
         padding: 10px;
