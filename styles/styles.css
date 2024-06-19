@@ -1309,6 +1309,9 @@ margin-top: 0%;
 }
 
 @media (max-width: 600px) {
+.main-text{
+    text-align: center;
+}
 
        .flex-container-doc strong{
         font-size: 0.75rem;
