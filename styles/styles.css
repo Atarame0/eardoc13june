@@ -2529,12 +2529,12 @@ background-color: #f6ebff;
     }
 
     .kids-forparents-section{
-background-image: url(../images/kids-bg.png);
+    background-image: url(../images/kids-bg.png);
     background-size: 106%;
     padding: -1%;
     background-position-x: 242%;
     background-repeat: no-repeat;
-    padding-top: 7%;
+    padding-top: 15%;
     }
 
 
