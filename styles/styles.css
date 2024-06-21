@@ -2608,16 +2608,12 @@ margin: 3%;
 
 
 .flex-container-opening-flighters {
-
+padding-top: 6%;
     padding-bottom: 0%;
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
-    gap: 1rem; /* Adjust gap as needed */
-    flex-direction: row;
-    padding-left: 0;
-    background-color: #FFF4EA;
-    
+    background-color: #fff4ea;
     background-position-y: 0%;
     background-size: 61%;
     background-position-x: -51%;
@@ -2628,12 +2624,12 @@ margin: 3%;
 
 
 .flex-container-opening-flighters li {
-    width: 37rem;
-    height: 26rem;
+width: 26rem;
+    height: 16rem;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem; /* Ensure spacing between rows */
+    margin-bottom: 1rem;
 
     
 }
