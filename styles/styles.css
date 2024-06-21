@@ -2545,7 +2545,9 @@ background-size: 95%;
 
     .kids-forparents-section li{
    
-/*         margin: 17px; */
+flex: 1 1 30%;
+    margin: -26px;
+    margin-right: -12%;
     }
 
     
