@@ -2523,10 +2523,10 @@ background-image: url(../images/kids-bg.png);
     }
 
     .kids-icon-bg {
-    position: relative;
-    top: 14%;
-    left: -56%;
-    width: 30%;
+position: relative;
+    top: 13%;
+    left: -42%;
+    width: 38%;
     }
 
 
@@ -2534,13 +2534,12 @@ background-image: url(../images/kids-bg.png);
     
     .kids-forparents-section{
 background-image: url(../images/kids-bg.png);
-    background-size: 97%;
-    background-position-x: -362%;
-    background-position-y: 34%;
+    background-size: 98%;
+    background-position-x: -623%;
+    background-position-y: 29%;
     background-repeat: no-repeat;
     /* padding-top: 44%; */
     padding-bottom: 29%;
-    
     }
 
 
@@ -2548,7 +2547,7 @@ background-image: url(../images/kids-bg.png);
    
 flex: 1 1 30%;
     margin: -26px;
-    margin-right: -12%;
+    margin-right: -5%;
     }
 
     
