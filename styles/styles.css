@@ -2522,11 +2522,10 @@ background-color: #f6ebff;
     }
 
     .kids-icon-bg {
- 
-        position: relative;
-        top: 14%;
-        left: -36%;
-        width: 132%;
+ position: relative;
+    top: 14%;
+    left: -40%;
+    width: 62%;
     }
 
     .kids-forparents-section{
