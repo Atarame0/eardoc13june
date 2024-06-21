@@ -2529,13 +2529,16 @@ background-image: url(../images/kids-bg.png);
     width: 44%;
     }
 
+
+
+    
     .kids-forparents-section{
 background-image: url(../images/kids-bg.png);
-    background-size: 79%;
-    background-position-x: -38%;
+background-size: 95%;
+    background-position-x: -208%;
     background-position-y: 54%;
     background-repeat: no-repeat;
-    padding-top: 19%;
+    padding-top: 15%;
     
     }
 
