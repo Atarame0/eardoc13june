@@ -2530,11 +2530,13 @@ background-color: #f6ebff;
 
     .kids-forparents-section{
     background-image: url(../images/kids-bg.png);
-    background-size: 106%;
+background-size: 106%;
     padding: -1%;
     background-position-x: 242%;
+    background-position-y: 18%;
     background-repeat: no-repeat;
     padding-top: 15%;
+    padding-bottom: 25%;
     }
 
 
