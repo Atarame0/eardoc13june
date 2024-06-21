@@ -2435,14 +2435,10 @@ color: #751DD5;
        color: #751DD5;
     }
     .kids-opening-section{
-        background-color: #F6EBFF;
         border-radius: 8%;
         background-position-y: -3%;
         background-size: 99%;
-       
         background-repeat: no-repeat;
-
-
         padding-top: 3%;
     padding-bottom: 1%;
     
@@ -2460,6 +2456,29 @@ color: #751DD5;
         
     }
 
+
+
+ .kids-forparents-section-icon{
+        margin-left: -7%;
+        width: 57%;
+
+    }
+
+    .kids-opening-section li {
+        flex: 1 1 30%;
+        margin: 3px;
+        margin-right: -6%;
+        width: 195%;
+        text-align: center;
+
+        
+    }
+
+    
+
+
+
+    
 
 
     
