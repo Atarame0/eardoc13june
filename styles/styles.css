@@ -2343,6 +2343,59 @@ color: #751DD5;
 
 
 
+.viewer-container-kids p {
+    margin-bottom: 10px; /* Adjust space between <p> and <canvas> */
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+
+
+
+.viewer-container-kids {
+        background-color: #f6ebff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 0%;
+
+}
+
+
+
+.viewer-container-kids-mobile{
+    display: none;
+}
+
+
+
+@media (max-width: 600px) {
+.viewer-container-kids {
+    background-image: transparent;
+   display:none;
+   
+}
+
+
+    .viewer-container-kids h2{
+        font-size: 1rem;
+    }
+
+    .viewer-container-kids-mobile{
+        display: flex;
+
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
