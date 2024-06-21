@@ -2524,8 +2524,8 @@ background-color: #f6ebff;
     .kids-icon-bg {
  position: relative;
     top: 14%;
-    left: -40%;
-    width: 62%;
+    left: -44%;
+    width: 44%;
     }
 
     .kids-forparents-section{
@@ -2540,7 +2540,7 @@ background-image: url(../images/kids-bg.png);
 
     .kids-forparents-section li{
    
-        margin: 17px;
+/*         margin: 17px; */
     }
 
     
