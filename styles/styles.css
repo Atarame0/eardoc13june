@@ -2535,10 +2535,11 @@ background-image: url(../images/kids-bg.png);
     .kids-forparents-section{
 background-image: url(../images/kids-bg.png);
     background-size: 97%;
-    background-position-x: -349%;
-    background-position-y: 96%;
+    background-position-x: -362%;
+    background-position-y: 34%;
     background-repeat: no-repeat;
-    padding-top: 44%;
+    /* padding-top: 44%; */
+    padding-bottom: 29%;
     
     }
 
