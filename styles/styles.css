@@ -2421,6 +2421,11 @@ color: #751DD5;
 
 
 @media (max-width: 600px) {
+
+      .flex-container-opening-kids h1{
+        text-align: center;
+    }
+    
     .chosenCat-image-kids{
         display: none;
      }
