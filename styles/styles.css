@@ -2523,10 +2523,12 @@ background-image: url(../images/kids-bg.png);
     }
 
     .kids-icon-bg {
-position: relative;
-    top: 13%;
-    left: -42%;
-    width: 38%;
+left: -41%;
+    position: relative;
+    left: -40%;
+    left: -36%;
+    width: 45%;
+
     }
 
 
