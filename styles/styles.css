@@ -2779,6 +2779,9 @@ width: 26rem;
 
 
 @media (max-width: 600px) {
+    .chosenCat-image-sw {
+        display:none;
+    }
     .flex-container-opening-swim li {
         width: 37rem;
         height: 12rem;}
