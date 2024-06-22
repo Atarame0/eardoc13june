@@ -2666,10 +2666,15 @@ width: 26rem;
     .flex-container-opening-flighters li{
         height: 8rem;
     }
+
+    .flex-container-opening-flighters{
+        padding: 1%;
+    }
     .flighters-opening-section-icon{
         width: 76%;
 
     }
+    
 
 .flighters-opening-section ul{
     display: flex;
