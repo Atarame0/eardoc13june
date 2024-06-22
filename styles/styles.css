@@ -2680,7 +2680,7 @@ width: 26rem;
 .flighters-opening-section ul{
     display: flex;
     flex-wrap: nowrap;
-    padding: -6px;
+    padding: 27px;
     /* margin: -65px; */
     list-style: none;
     width: 88%;
