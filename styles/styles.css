@@ -2767,7 +2767,7 @@ width: 24rem;
     background-size: 61%;
     background-position-x: -51%;
     background-repeat: no-repeat;
-  
+  padding:0%;
    
 }
 
@@ -2809,7 +2809,8 @@ width: 24rem;
     }
     .flex-container-opening-swim li {
         width: 37rem;
-        height: 7rem;}
+        height: 7rem;
+    }
 
 
     .flex-container-opening-swimmers {
