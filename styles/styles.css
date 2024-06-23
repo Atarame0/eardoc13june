@@ -343,11 +343,10 @@ p{
     list-style: none;
     overflow-y: hidden; 
     background-image: url(../images/Catbg.png); 
-    background-size: cover; 
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
-padding-top: 6%;
+padding-top: 0%;
 }
 
   .list::-webkit-scrollbar {
