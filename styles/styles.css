@@ -286,6 +286,17 @@ p{
     margin-bottom: 1rem; /* Ensure spacing between rows */
 }
 
+@media (max-width: 1240px) {
+    .flex-container-opening li {
+        width: 19rem;
+    }
+
+}
+
+
+
+
+
 
 @media (max-width: 600px) {
     .flex-container-opening {
