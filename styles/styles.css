@@ -2804,6 +2804,10 @@ width: 24rem;
 
 
 @media (max-width: 600px) {
+    .flex-container-opening-swim h1 {
+    text-align: center;
+}
+    
     .chosenCat-image-sw {
         display:none;
     }
