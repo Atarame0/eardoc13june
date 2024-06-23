@@ -286,12 +286,13 @@ p{
     margin-bottom: 1rem; /* Ensure spacing between rows */
 }
 
-@media (max-width: 1240px) {
+@media (min-width: 1024px) and (max-width: 1240px) {
     .flex-container-opening li {
         width: 19rem;
     }
 
 }
+
 
 
 
