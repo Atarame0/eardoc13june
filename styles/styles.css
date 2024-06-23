@@ -2857,6 +2857,14 @@ width: 26rem;
 
 /*  מבוגרים */
 
+.chosenCat-image-ad{
+    height: auto;
+    padding-right: 24%;
+    max-width: 54%;
+    padding-top: 6%;
+}
+
+
 
 .flex-container-opening-adults{
 
@@ -2879,43 +2887,49 @@ width: 26rem;
 
 
 .flex-container-opening-adults li {
-    width: 37rem;
-    height: 26rem;
+    width: 27rem;
+    height: 17rem;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem; /* Ensure spacing between rows */
+    margin-bottom: 1rem;
 
     
 }
 
 
+@media (max-width: 600px) {
+    .chosenCat-image-ad{
+        display: none;
+    }
+
+
+    .flex-container-opening-adults h1{
+        text-align: center;
+    }
+
+
+    .flex-container-opening-adults {
+        padding: 0%;
+
+        display: flex;
+
+        flex-wrap: wrap;
+
+        background-color: #DBE0E9;
+     
+    }
+
+    .flex-container-opening-adults li {
+        height: 6rem;
+        flex-direction: column;
+    }
+
+}
+
+
 /*  */
 
-
-
-.flex-container-opening-adults li {
-    width: 37rem;
-    height: 26rem;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1rem; 
-}
-
-
-
-
-/* .iframe-container {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    padding-bottom: 14%;
-}
-  
   .iframe-container iframe {
     position: absolute;
     top: 0;
