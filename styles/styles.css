@@ -77,9 +77,10 @@ font-family: 'Assistant-Light';
 
 .chosenCat-nav{
     background: linear-gradient(180deg, #29A7E2, #37C6E9);
-    text-decoration: none;
-    border-radius: 19%;
-    width: 3%;
+  text-decoration: none;
+    border-radius: 14%;
+    width: 9%;
+    padding: 1.5%;
 }
 
 
