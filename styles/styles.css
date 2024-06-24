@@ -193,7 +193,8 @@ display: none;
         display: flex;
         align-items: center;
         justify-content: center; /* Horizontally center the content */
-        padding: 1.4%;
+/*         padding: 1.4%; */
+        
         
     }
     
