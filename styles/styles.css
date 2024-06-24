@@ -168,15 +168,10 @@ display: none;
     .flex-container-nav.hide-mobile{
 
         display: flex;
-        gap: 10%;
         padding: 2%;
     padding-bottom: 1%;
-    /* background-color: #008291; */
-
-
-
     display: flex;
-/*     gap: 11%; */
+ gap: 7%;
     padding: 0%;
   
     }
