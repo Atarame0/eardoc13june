@@ -877,12 +877,12 @@ height: 63%;
 }
 
 .popup-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
+    background-color: #EFFBFF;
+    padding: 16px;
+    border-radius: 30px;
     text-align: center;
-    max-width: 800px;
-    width: 90%;
+    max-width: 759px;
+    width: 94%;
     position: relative;
 }
 
@@ -942,15 +942,21 @@ iframe {
 
 
 .flag {
-    width: 50px;
-    height: auto;
-    margin: 10px 0;
+ width: 76px;
+    height: 75%;
+    margin: 9px 0;
 }
 
-#popup-title {
-    margin: 10px 0;
-}
 
+.flex-container-popup {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 29px;
+    gap: 3%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
 
 /* אישור משרד הבריאות האמריקני */
 
