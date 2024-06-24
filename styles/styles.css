@@ -721,14 +721,16 @@ height: 63%;
 
 
 .emergency-icon{
-    height: 63%;
-    padding: 12%;
+height: 63%;
+    padding: 27%;
+    padding-right: 20%;
 }
 
 
 .surgery-icon{
-   height: 63%;
-    padding: 1%;
+  height: 63%;
+    padding: 14%;
+    padding-right: 1%;
 }
 
 .perforation-icon{
