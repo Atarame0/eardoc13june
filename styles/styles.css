@@ -2718,6 +2718,7 @@ width: 24rem;
 }
 .flighters-opening-section h2 {
     color: #751DD5;
+    text-align: center;
  }
  .flighters-opening-section{
 
@@ -2748,10 +2749,6 @@ width: 24rem;
 
  
 
-#canvas3d-7 {
-    width: 80% !important; /* Adjust width to make the canvas larger */
-    height: 80% !important; /* Adjust height to make the canvas larger */
-}
 /* אינטרקציה מרכזית */
 
 
